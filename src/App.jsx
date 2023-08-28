@@ -1,10 +1,16 @@
-// import './App.css'
+import styles from './App.module.css'
 import VideoItem from './components/VideoItem';
 import VideoList from './components/VideoList';
 
 
 const App = () => (
-  <>
+  <div className={styles.container}>
+  {/* <div style={{
+      width: '100%',
+      maxWidth: '600px',
+      margin: '0 auto',
+      background: 'red'
+  }}> */}
     <VideoList title='Curso de React'>
       <VideoItem 
         title= 'Componentes'
@@ -28,7 +34,7 @@ const App = () => (
       />
     </VideoList>
     <VideoList title= 'Introducción a SyncFusion'></VideoList>
-  </>
+  </div>
 );
 
 export default App;

@@ -1,0 +1,11 @@
+.container {
+    padding: .75rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+
+    margin: .75rem 0;
+}
+
+.duration {
+    margin-right: .5rem;
+}
